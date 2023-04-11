@@ -1,0 +1,17 @@
+.desc{
+    color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight:lighter;
+    
+}
+
+.subtitle{
+    text-align: center;
+    position: relative;
+    margin-top: 15rem;
+}

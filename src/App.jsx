@@ -1,14 +1,17 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
 import Home from './components/home/Home'
-import video from './assets/video.mp4'
+import Partner from './components/partner/Partner'
+import Description from './components/description/Description'
+import Overview from './components/overview/Overview'
 import './App.css'
 
 const App = () => {
   return (
     <>
-      <Navbar/>
       <Home/>
+      <Partner/>
+      <Description/>
+      <Overview/>
     </>
   )
 }

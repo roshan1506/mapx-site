@@ -1,13 +1,29 @@
 import React from 'react'
-import ReactPlayer from 'react-player';
-import videobg from '../../assets/video.mp4';
+import video from '../../assets/video.mp4'
+import './home.css'
+import Navbar from '../navbar/Navbar'
+
 
 export default function Home() {
   return (
-    <div>
-        <div className="background-video" style={{ zIndex }}>
-      <ReactPlayer url={videobg} playing loop muted width="100%" height="100%" />
+    <>
+    <div className='home'>
+        <Navbar/>
+        <div className='heading'>
+          <h1>Explore The World, One</h1>
+          <h1>NFT at a Time</h1>
         </div>
+
+        <div className='btn'>
+          <button>Download APK</button>
+        </div>
+        <video className='bg-video' autoPlay loop muted>
+            <source src={video}></source>
+        </video>
+
     </div>
+    </>
+
+    
   )
 }

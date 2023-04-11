@@ -1,0 +1,82 @@
+
+
+.overview{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.cards h2{
+    margin-top: 30px;
+    font-size: 32px;
+    color: #F7A1FF;
+}
+
+.card{
+    height: 45vh;
+    /* width: 35vw; */
+    padding: 70px;
+    /* 1D192E */
+    background-color:rgba(29, 25, 46, 0.8);
+    margin-top: 100px;
+    position: relative;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.card p{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    top: 50px;
+    padding-top: 60px;
+}
+
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 35%;
+    z-index: -1;
+    filter: blur(40px);
+    -webkit-filter: blur(50px);
+    
+}
+
+.img2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 35%;
+    z-index: -1;
+    filter: blur(40px);
+    -webkit-filter: blur(50px);
+}
+
+.img3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 35%;
+    z-index: -1;
+    filter: blur(40px);
+    -webkit-filter: blur(50px);
+}
+.img4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 35%;
+    z-index: -1;
+    filter: blur(40px);
+    -webkit-filter: blur(50px);
+}

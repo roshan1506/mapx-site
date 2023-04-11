@@ -1,0 +1,66 @@
+.bg-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    /* position: fixed; */
+    position: absolute;
+    z-index: -3;
+}
+
+/* .bg-image{
+    position: absolute;
+    object-fit: cover;
+    width: 100vw;
+}
+.bg-image img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 600px;
+} */
+
+.home{
+    position: relative;
+}
+
+.heading{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 90px;
+    background: linear-gradient(to right, #9747FF,
+                    #F7A1FF, #16045C);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+                    
+}
+
+
+button{
+    background-color: transparent;
+    color: #ffffff;
+    width: 269px;
+    height: 82px;
+    font-size: 28px;
+    align-items: center;
+    border: 2px solid #F7A1FF;
+    border-radius: 10px;
+    border: linear-gradient(to right, #F7A1FF,#488DFF);
+    
+}
+
+.btn{
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+button:hover{
+    background: linear-gradient(to right, #F7A1FF,#488DFF);
+    border: none;
+}
