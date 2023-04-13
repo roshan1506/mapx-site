@@ -1,0 +1,47 @@
+/* h1{
+    background-color: aqua;
+} */
+
+.ftr{
+    height: 60vh;
+    /* width: 35vw; */
+    /* 1D192E */
+    background-color:rgba(29, 25, 46, 0.8);
+    margin-top: 100px;
+    position: relative;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.footer-lgo{
+    max-width: 50%;
+    height: auto;
+}
+
+.ftr h2{
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.social-sub{
+    height: 125px;
+    width: 125px;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #F7A1FF;
+    border-radius: 50%;
+}
