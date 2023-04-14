@@ -3,30 +3,37 @@
 .overview{
     text-align: center;
     margin-top: 10rem;
+    
 }
-
+.heading{
+    font-size: 64px;
+    padding-bottom: 1em;
+}
 .cards{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    row-gap: 100px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
+    
 }
 
 .cards h2{
     margin-top: 30px;
     font-size: 32px;
     color: #F7A1FF;
+    
 }
 
 .card{
     height: 45vh;
-    /* width: 35vw; */
+    /* width: auto; */
     padding: 70px;
     /* 1D192E */
     background-color:rgba(29, 25, 46, 0.8);
-    margin-top: 100px;
+    /* margin-top: 100px; */
     position: relative;
     backdrop-filter: blur(20px);
     border-radius: 8px;
@@ -39,6 +46,7 @@
     font-size: 24px;
     top: 50px;
     padding-top: 60px;
+    width: 15em;
 }
 
 .img1{
@@ -46,7 +54,7 @@
     top: 0;
     left: 0;
     opacity: 35%;
-    z-index: -1;
+    /* z-index: -1; */
     filter: blur(40px);
     -webkit-filter: blur(50px);
     

@@ -4,7 +4,7 @@ import './navbar.css'
 
 export default function Navbar() {
   return (
-    <div className='navbar'>
+    <div className='navbar' id='home'>
         
         <div className='logo'>
             <img src={logo}></img>
@@ -12,10 +12,10 @@ export default function Navbar() {
 
         <div className='options'>
             <ul className='nav-items'>
-                <a className='nav-item'>Home</a>
-                <li className='nav-item'>Contact</li>
-                <li className='nav-item'>Overview</li>
-                <li className='nav-item'>About</li>
+                <a href="#home" className='nav-item'>Home</a>
+                <a href="#about" className='nav-item'>About</a>
+                <a href="#overview" className='nav-item'>Overview</a>
+                <a href="#contact" className='nav-item'>Contact</a>
             </ul>
         </div>
         
