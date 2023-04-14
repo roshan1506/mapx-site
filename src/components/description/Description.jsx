@@ -3,8 +3,8 @@ import './description.css'
 
 const Description = () => {
   return (
-    <div className='subtitle'>
-        <h1>
+    <div className='subtitle' id='about'>
+        <h1 className='title'>
             Who are We
         </h1>
 

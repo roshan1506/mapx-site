@@ -32,6 +32,7 @@
     font-weight:normal;
     padding-right: 3rem;
     opacity: 80%;
+    text-decoration: none;
 }
 
 .nav-item:hover{

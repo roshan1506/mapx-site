@@ -9,9 +9,11 @@
     font-weight:lighter;
     
 }
-
+.title{
+    font-size: 64px;
+}
 .subtitle{
     text-align: center;
     position: relative;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
