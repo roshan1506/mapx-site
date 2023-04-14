@@ -4,13 +4,22 @@
     height: 100vh;
     top: 0;
     left: 0;
+    right: 0;
     /* position: fixed; */
     position: absolute;
     z-index: -3;
 }
 
-
-
+.home{
+    overflow-y: auto;
+  
+    /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.home::-webkit-scrollbar {
+    display: none;
+  }
 
 
 .heading{
