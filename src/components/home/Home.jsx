@@ -2,7 +2,7 @@ import React from 'react'
 import video from '../../assets/video.mp4'
 import './home.css'
 import Navbar from '../navbar/Navbar'
-
+import image from "../../assets/bg-image.png";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <div className='btn'>
           <button>Download APK</button>
         </div>
-        <video className='bg-video' autoPlay loop muted>
+        <video className='bg-video' autoPlay loop muted playsInline poster={image}>
             <source src={video}></source>
         </video>
 
