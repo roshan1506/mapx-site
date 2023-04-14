@@ -17,7 +17,7 @@ export default function Home() {
         <div className='btn'>
           <button>Download APK</button>
         </div>
-        <video className='bg-video' autoPlay loop muted playsInline poster={image}>
+        <video className='bg-video' preload="none" autoPlay loop muted >
             <source src={video}></source>
         </video>
 
