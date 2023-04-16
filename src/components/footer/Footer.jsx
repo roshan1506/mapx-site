@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer' id='contact'>
             <div className='ftr'>
-                <img className='footer-logo' width={180} src={Logo}></img>
+                <img className='footer-logo' src={Logo}></img>
                 <h2>Join The Community</h2>
                 <br/>
 
