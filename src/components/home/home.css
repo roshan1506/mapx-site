@@ -61,3 +61,22 @@ button:hover{
     background: linear-gradient(to right, #F7A1FF,#488DFF);
     border: none;
 }
+a:link {
+  color: white;
+ 
+}
+
+a:visited {
+  color:  white;
+ 
+}
+
+a:hover {
+  color:  white;
+ 
+}
+
+a:active {
+  color:  white;
+ 
+}
