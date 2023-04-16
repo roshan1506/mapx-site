@@ -18,7 +18,9 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className='social-sub'>
+                        <a href="https://twitter.com/Mapx25">
                         <Icon icon="uil:twitter-alt" color="white" width="50" height="50" />
+                        </a>
                     </div>
                     <div className='social-sub'>
                         <a href="https://www.linkedin.com/company/mapx25/">
@@ -26,7 +28,9 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className='social-sub'>
+                        <a href="https://discord.gg/4ceuUaWD">
                         <Icon icon="teenyicons:discord-outline" color="white" width="50" height="50" />
+                        </a>
                     </div>
                 </div>
             <img className='bg-image' src={img}></img>
